@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to the Frontline Blog{% endblock %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Welcome to the Frontline Blog</h1>
+    <p class="lead">Your go-to source for all things morale, creativity, and productivity.</p>
+    <p>Here, we combine tactical insights, pop culture flair, and entrepreneurial wisdom to empower military communities, enthusiasts, and families. Whether you're here for morale patches, nerdy pizza references, or tools to level up your business, you've come to the right place.</p>
+    <div class="mt-4">
+        <a href="{% url 'list' %}" class="btn btn-primary">Explore Posts</a>
+        <a href="{% url 'new' %}" class="btn btn-success">Create a New Post</a>
+    </div>
+</div>
+{% endblock %}
