@@ -7,4 +7,6 @@ urlpatterns = [
     path("<int:pk>/", views.PostDetailView.as_view(), name="detail"),  # Detail view
     path("<int:pk>/edit/", views.PostUpdateView.as_view(), name="edit"),  # Edit post
     path("<int:pk>/delete/", views.PostDeleteView.as_view(), name="delete"),  # Delete post
+    #ADD OTHER URLS (NEW PAGES) BELOW
+    
 ]

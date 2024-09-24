@@ -1,8 +1,54 @@
 {% extends 'base.html' %}
 
-{% block title %}About{% endblock %}
+{% block title %}About Us{% endblock %}
 
 {% block content %}
-<h1>About Us</h1>
-<p>Welcome to the about page of this blog.</p>
+<div class="container mt-5">
+    <h1 class="display-4 text-center">Our Story</h1>
+    <p class="lead text-center">Driven by passion. Powered by innovation.</p>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <h2>Who We Are</h2>
+            <p>
+                We are a community of creators, innovators, and visionaries. At the core of our brand is a relentless pursuit
+                of excellence, constantly pushing the boundaries of what’s possible. We believe in the power of teamwork, 
+                resilience, and a commitment to lead by example.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is simple – to inspire greatness. We’re here to provide you with the tools, knowledge, and 
+                motivation needed to conquer your goals, whether they’re in sports, business, or life. 
+                Every day is an opportunity to be better than you were yesterday.
+            </p>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <h2>What We Stand For</h2>
+            <ul>
+                <li>Innovation: We believe in thinking differently and pushing the limits of creativity.</li>
+                <li>Integrity: Trust and honesty are at the foundation of every relationship we build.</li>
+                <li>Excellence: Good isn’t good enough. We strive for excellence in everything we do.</li>
+                <li>Community: We are stronger together and believe in lifting each other up.</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="https://cdn.prod.website-files.com/6425b3d54d3c3834d11bef95/650ae81ebb02b8565d29eb4c_innovative-teams-featured-01.webp" 
+            class="img-fluid" 
+            alt="Innovation and Teamwork">
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <h3>"The only limit is the one you set yourself."</h3>
+        <p>- Our Philosophy</p>
+        <img src="https://source.unsplash.com/600x400/?inspiration,goals" 
+        class="img-fluid mt-4" 
+        alt="Inspiration">
+    </div>
+</div>
 {% endblock %}
